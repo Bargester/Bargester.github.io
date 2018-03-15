@@ -138,7 +138,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #f84444;
+    background-color: #f82222;
     transition: .3s;
     transform: translateY(110%);
 }
