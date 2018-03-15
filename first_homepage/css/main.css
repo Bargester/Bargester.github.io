@@ -117,7 +117,7 @@ body{
     color: #fff;
     width: 188px;
     height: 35px;
-    transition: .3s;
+    transition: .5s;
     position: relative;
     overflow: hidden;
 }
@@ -129,7 +129,7 @@ body{
     top: 0;
     left: 0;
     background-color: #f84444;
-    transition: .3s;
+    transition: .5s;
 }
 .btn:before{
     content: 'inside our studio';
@@ -139,20 +139,20 @@ body{
     top: 0;
     left: 0;
     background-color: #f82222;
-    transition: .3s;
+    transition: .5s;
     transform: translateY(110%);
 }
 .btn:hover{
     color: #fff;
-    transition: .3s;
+    transition: .5s;
 }
 .btn:hover:after{
     transform: translateY(-110%);
-    transition: .3s;
+    transition: .5s;
 }
 .btn:hover:before{
     transform: translateY(0);
-    transition: .3s;
+    transition: .5s;
 }
 /*BTN CLASS:FINISHED*/
 .title{
