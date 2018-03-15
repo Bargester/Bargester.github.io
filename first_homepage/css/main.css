@@ -163,8 +163,6 @@ body{
 .intro_s__arrow{
     position: absolute;
     bottom: 50px;
-    left: 50%;
-    transform: translateX(-50%);
     animation: up_down .5s linear alternate infinite;
 }
 .about_us_s{
