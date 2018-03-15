@@ -3,56 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Homepage</title>
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <section class="header_s">
-        <header class="container">
-            <nav>
-                <div class="logo nav_item">
-                    <a href="/">
-                        <img src="img/header/logo.png" alt="logo">
-                    </a>
-                </div>
-                <div class="search nav_item">
-                    <img src="img/header/search.png" alt="search">
-                </div>
-                <div class="menu nav_item">
-                    <div class="menu_line"></div>
-                </div>
-            </nav>
-        </header>
-    </section>
-    <section class="main_section">
-        <article class="container">
-            <div class="main_title">
-                <div class="btn">
-                    <a href="#">
-                        Inside our studio
-                    </a>
-                </div>
-                <h1>
-                    Frostbite
-                </h1>
-            </div>
-
-            <div class="arrow">
-                <a href="#">
-                    <img src="img/main_section/arrow.png" alt="arrow">
+<!--HEADER SECTION -->
+<header class="header_s">
+    <nav class="container-header nav">
+        <a href="/" class="logo">
+            <img src="img/nav/logo.png" alt="logo">
+        </a>
+        <div class="menu">
+            <div class="search">
+                <input type="search" placeholder="search" class="search_item">
+                <a href="#" class="btn_search">
+                    <img src="img/nav/search.png" alt="">
                 </a>
             </div>
-        </article>
-    </section>
-    <section class="about_section">
-        <article class="container">
-            <div class="about_title">
-                <img src="img/about_section/waves.png" alt="waves">
-                <h2>
-
-                </h2>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
             </div>
-        </article>
-    </section>
+        </div>
+    </nav>
+</header>
+<!-- //HEADER SECTION -->
+<!--INTRO_S-->
+<section class="intro_s">
+    <div class="intro_s__wrap">
+        <a href="#" class="btn"></a>
+        <h1 class="title">FROSTBITE</h1>
+    </div>
+    <a href="#about_us" class="intro_s__arrow">
+        <img src="img/intro/arrow.png" alt="">
+    </a>
+</section>
+<!-- // INTRO_S-->
+<section id="about_us" class="about_us_s"></section>
 </body>
 </html>
