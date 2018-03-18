@@ -1,46 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>First Homepage</title>
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<!--HEADER SECTION -->
-<header class="header_s">
-    <nav class="container-header nav">
-        <a href="/" class="logo">
-            <img src="img/nav/logo.png" alt="logo">
-        </a>
-        <div class="menu">
-            <div class="search">
-                <input type="search" placeholder="search" class="search_item">
-                <a href="#" class="btn_search">
-                    <img src="img/nav/search.png" alt="">
-                </a>
+    <!-- HEADER SECTION -->
+    <header class="header_s">
+        <nav class="container-header nav">
+            <a href="/" class="logo">
+                <img src="img/nav/logo.png" alt="logo">
+            </a>
+            <div class="menu">
+                <div class="search">
+                    <input type="search" placeholder="search" class="search_item">
+                    <a href="#" class="btn_search">
+                        <img src="img/nav/search.png" alt="">
+                    </a>
+                </div>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
             </div>
-            <div class="hamburger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
+        </nav>
+    </header>
+    <!--HEADER SECTION: END-->
+    <!--INTRO SECTION-->
+    <section class="intro_s">
+        <div class="intro_s__wrap">
+            <a href="#" class="btn"></a>
+            <h1 class="title">FROSTBITE</h1>
+        </div>
+        <a href="#about_us" class="intro_s__arrow">
+            <img src="img/intro/arrow.png" alt="">
+        </a>
+    </section>
+    <!--INTRO_S: END-->
+    <section id="about_us" class="about_us_s">
+        <div class="about_us_s__wrap container">
+            <div class="title_block">
+                <img src="img/about_us/waves.png" alt="">
+                <h2>a team of creatives based out of california</h2>
+            </div>
+            <div class="flex-container">
+                <div class="content_block">
+                    <h3>who we are</h3>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Donec vitae enim sollicitudin, suscipit enim nec, scelerisque
+                        erat. Maecenas placerat vestibulum neque et venenatis. Donec
+                        condimentum metus in tempor luctus. </p>
+                </div>
+                <div class="img_wrap">
+                    <img src="img/about_us/1.png" alt="">
+                </div>
+            </div>
+            <div class="flex-container">
+                <div class="img_wrap">
+                    <img src="img/about_us/2.png" alt="">
+                </div>
+                <div class="content_block">
+                    <h3>what we do</h3>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Donec vitae enim sollicitudin, suscipit enim nec, scelerisque
+                        erat. Maecenas placerat vestibulum neque et venenatis. Donec
+                        condimentum metus in tempor luctus.</p>
+                </div>
+            </div>
+            <div class="flex-container">
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium incidunt magni quasi quidem quisquam tenetur vel? Asperiores culpa delectus deleniti dolorem eligendi ex facilis impedit ipsa, ipsam ipsum iure labore magni molestias nam neque nesciunt nobis nostrum obcaecati odio officia omnis perspiciatis possimus provident quia quis quod ratione rem reprehenderit, repudiandae saepe sapiente similique, tempora ut velit veniam veritatis voluptatum! Assumenda, facilis, vitae. A, accusamus animi commodi cupiditate doloribus, enim, eum exercitationem facilis impedit natus necessitatibus numquam odio officia pariatur porro rem rerum veritatis! Accusamus cupiditate earum esse facere facilis libero numquam quos ratione, vero voluptas? Eum impedit iste nulla!</p>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur debitis facilis magni pariatur possimus rem ullam. Aliquam at autem consectetur corporis eligendi praesentium provident, voluptatibus voluptatum. Blanditiis consequatur cupiditate dolorem quo ratione recusandae reprehenderit tempora temporibus unde vitae. Ad debitis, delectus dolores doloribus fugiat in! Et maiores quam qui quo repellendus ut. Adipisci commodi consequatur cumque est facere magnam repellat soluta veniam. Culpa dignissimos dolor ea exercitationem ipsam iure, maxime minima natus quidem quod recusandae repudiandae sint, sunt unde velit? Aperiam assumenda atque beatae corporis deserunt, esse et hic ipsum iste mollitia nobis pariatur perspiciatis porro recusandae, reiciendis voluptatum!</p>
+            </div>
+            <div class="btn_wrap">
+                <a href="#">journal</a>
+                <a href="#" >our story</a>
             </div>
         </div>
-    </nav>
-</header>
-<!-- //HEADER SECTION -->
-<!--INTRO_S-->
-<section class="intro_s">
-    <div class="intro_s__wrap">
-        <a href="#" class="btn"></a>
-        <h1 class="title">FROSTBITE</h1>
-    </div>
-    <a href="#about_us" class="intro_s__arrow">
-        <img src="img/intro/arrow.png" alt="">
-    </a>
-</section>
-<!-- // INTRO_S-->
-<section id="about_us" class="about_us_s"></section>
+    </section>
+    <!--LATEST PROJECT SECTION -->
+    <section class="project_s">
+        <article class="project_s__wrap container">
+            <h2 class="project_s__title">latest projects</h2>
+            <p class="text">Aliquam sed posuere urna, et gravida nisl. Praesent interdum nisl libero, pretium
+                egestas purus eleifend vitae. Mauris suscipit vel lectus at luctus.
+            </p>
+            <div class="btn_wrap">
+                <a href="#">view projects</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="project_slider">
+                <div class="slide active">
+                    <img src="img/projects/1.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/projects/2.png" alt="">
+                </div>
+            </div>
+            <div class="text_content">
+                <h3 class="project_s__title">case studies</h3>
+                <p class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac odio
+                    quis augue iaculis aliquam tristique id sapien. Proin ultricies tortor
+                    porta, volutpat sapien nec, hendrerit ligula. Ut id ipsum eu leo
+                    maximus rutrum.
+                </p>
+                <ul class="slide_number">
+                    <li class="number">01</li>
+                    <li class="number active_number">02</li>
+                    <li class="number">03</li>
+                </ul>
+            </div>
+            <div class="note">
+                <img src="img/projects/clock.png" alt="clock">
+                <p>
+                    4 hours ago - by Andrew B.
+                </p>
+            </div>
+        </article>
+    </section>
+    <section class="our_journal">
+
+    </section>
 </body>
 </html>
