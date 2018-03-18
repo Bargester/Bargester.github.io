@@ -206,7 +206,7 @@
 .content_block{
     padding-left: 73px;
 }
-.content_block h3{
+h3{
     font-family: 'Raleway-ExtraBold';
     font-size: 20px;
     line-height: 43px;
@@ -254,7 +254,7 @@
     font-family: 'Raleway-ExtraBold';
     margin-right: 19px;
 }
-.btn_wrap a:last-child{
+.project_s .btn_wrap a:last-child, .about_us .btn_wrap a:last-child{
     margin: 0;
     border: 2px solid #e6e6e6;
     line-height: 36px;
@@ -336,10 +336,6 @@
 }
 .text_content h3
 {
-    font-family: 'Raleway-ExtraBold';
-    line-height: 44px;
-    text-transform: uppercase;
-    font-size: 20px;
     color: #2d2f38;
     text-align: left;
     margin-left: 25px;
@@ -351,14 +347,14 @@
     padding: 0;
     position: relative;
 }
-.text_content > p:before{
+.project_s .text_content > p:before{
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
 }
-.text_content > p:after{
+.project_s.text_content > p:after{
     content: '';
     position: absolute;
     top: 30%;
@@ -396,3 +392,37 @@
 }
 /*SLIDER PROJECTS: END*/
 /*PROJECT SECTION: END*/
+/*OUR JOURNAL SECTION*/
+.journal_s{
+    position: relative;
+    margin-top: 205px;
+    height: 680px;
+    width: 100%;
+    background-color: #FAFAFA;
+}
+.journal_s__wrap{
+
+}
+.journal_s__wrap > img{
+    position: absolute;
+    top: 285px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.journal_s__img{
+    position: absolute;
+    top: -86px;
+    right: 0;
+}
+.journal_s__title img{
+    margin: 210px 0 28px 0;
+}
+.journal_s__title p{
+    width: 30%;
+}
+.journal_s .btn_wrap{
+    justify-content: left;
+    margin-top: 25px;
+}
+/*OUR JOURNAL SECTION:END*/
