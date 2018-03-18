@@ -254,7 +254,7 @@ h3{
     font-family: 'Raleway-ExtraBold';
     margin-right: 19px;
 }
-.project_s .btn_wrap a:last-child, .about_us .btn_wrap a:last-child{
+.btn_wrap a:nth-child(2){
     margin: 0;
     border: 2px solid #e6e6e6;
     line-height: 36px;
