@@ -521,7 +521,7 @@ h3{
     height: 2px;
     background-color: #949494;
 }
-.team_item__sn img{
+.team_item__sn a{
     margin: 40px 20px 70px 0;
 }
 .filter{
