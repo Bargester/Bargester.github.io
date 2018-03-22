@@ -531,6 +531,7 @@ h3{
 }
 .filter{
     filter: grayscale(0.75);
+    transition: .3s;
 }
 .team_item:hover .filter{
     filter: grayscale(0);
