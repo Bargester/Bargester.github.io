@@ -225,7 +225,7 @@ h3{
 }
 .line_text:before{
     position: absolute;
-    left: -86px;
+    left: -82px;
     content: '';
     height: 30px;
     width: 2px;
@@ -301,7 +301,8 @@ h3{
     left: 50%;
     transform: translateX(-50%);
     width: 2px;
-    height: 100px;
+    max-height: 100px;
+    height: 100%;
     background-color: #dfdfdf;
 }
 .project_s__wrap{
@@ -426,6 +427,10 @@ h3{
     margin: 44px 0 0 25px;
     display: flex;
 }
+.note img{
+    height: 16px;
+    width: 16px;
+}
 .note p{
     text-align: left;
     padding: 0;
@@ -527,7 +532,7 @@ h3{
 .filter{
     filter: grayscale(0.75);
 }
-.filter:hover{
+.team_item:hover .filter{
     filter: grayscale(0);
 }
 .brands{
