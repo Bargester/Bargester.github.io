@@ -1,0 +1,9 @@
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: #f00;
+  &:hover{
+    background-color: black;
+    animation: bounce 2s infinite linear;
+  }
+}
