@@ -83,14 +83,14 @@
 }
 /*HEADER SECTION: END*/
 /*--------------INTRO SECTION START CSS--------------------*/
-.intro_s{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
+    .intro_s{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
 .intro_s:before{
     content: '';
     position: absolute;
