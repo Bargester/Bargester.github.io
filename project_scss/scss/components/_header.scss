@@ -3,24 +3,33 @@
   top: 0;
   left: 0;
   width: 100%;
-  padding-top: 55px;
+  padding-top: 50px;
   z-index: 10;
+  a{
+    text-decoration: none;
+    color: black;
+    font-family: 'ProximaNova-Light' ;
+  }
+  .company_name{
+    font-size: 36px;
+    span{
+      font-weight: bold;
+    }
+  }
  .nav{
    display: flex;
    justify-content: space-between;
+   align-items: flex-end;
    .nav_list{
      display: flex;
      justify-content: space-between;
      .nav_item{
        margin: 0 15px;
+       font-size: 18px;
      }
      .nav_item:last-of-type{
        margin-right: 0;
      }
    }
  }
-  a{
-    text-decoration: none;
-    color: black;
-  }
 }
