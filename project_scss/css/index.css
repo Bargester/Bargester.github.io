@@ -301,3 +301,33 @@ input[type="button"],
 input[type="submit"] {
   -webkit-appearance: none;
   border-radius: 0; }
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto; }
+
+.header_s {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 55px;
+  z-index: 10; }
+  .header_s .nav {
+    display: flex;
+    justify-content: space-between; }
+    .header_s .nav .nav_list {
+      display: flex;
+      justify-content: space-between; }
+      .header_s .nav .nav_list .nav_item {
+        margin: 0 15px; }
+      .header_s .nav .nav_list .nav_item:last-of-type {
+        margin-right: 0; }
+  .header_s a {
+    text-decoration: none;
+    color: black; }
+
+body {
+  height: 500vh; }

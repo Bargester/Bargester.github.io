@@ -1,4 +1,11 @@
 //Reset
 @import "libs/reset";
 
-//
+//Partials
+@import "partials/containers";
+@import "partials/keyframes";
+@import "partials/variable";
+@import "partials/mixins";
+
+//Pages
+@import "pages/home";
