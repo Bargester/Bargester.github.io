@@ -31,16 +31,6 @@
         font-size: 18px;
         color: $text_description;
       }
-      .btn{
-        height: 50px;
-        width: 200px;
-        background: linear-gradient(90deg, #330066, #cc0099);
-        text-align: center;
-        line-height: 50px;
-        border-radius: 50px;
-        text-decoration: none;
-        color: #fff;
-      }
     }
     .mouse{
       display: flex;
@@ -51,4 +41,14 @@
       color: #fff;
     }
   }
+}
+.btn{
+  height: 50px;
+  width: 200px;
+  background: linear-gradient(90deg, #330066, #cc0099);
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #fff;
 }
