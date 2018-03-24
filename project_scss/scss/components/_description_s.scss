@@ -1,0 +1,47 @@
+.description_s__wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 850px;
+  h2{
+    margin-top: 100px;
+    font-family: 'ProximaNova-Bold';
+    font-size: 48px;
+  }
+  .description_title{
+    margin-top: 110px;
+    display: flex;
+    .column{
+      display: flex;
+      flex-direction: column;
+      .row{
+        display: flex;
+        align-items: center;
+        margin-bottom: 85px;
+        div{
+          padding-left: 45px;
+          h4{
+            font-family: 'ProximaNova-Bold';
+            font-size: 30px;
+          }
+          p{
+            font-size: 16px;
+            line-height: 30px;
+            margin-top: 25px;
+            width: 420px;
+            color: $text_description;
+          }
+        }
+        }
+      &:nth-child(2n-1){
+        margin-right: 75px;
+      }
+      &:nth-child(2n){
+        margin-left: 75px;
+      }
+    }
+  }
+  .btm{
+    margin-top: 15px;
+  }
+}
