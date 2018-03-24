@@ -327,6 +327,11 @@ input[type="submit"] {
   padding: 0 15px;
   margin: 0 auto; }
 
+.big-container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto; }
+
 .header_s {
   position: absolute;
   top: 0;
@@ -476,7 +481,7 @@ input[type="submit"] {
             font-size: 16px;
             line-height: 30px;
             margin-top: 25px;
-            width: 420px;
+            width: 90%;
             color: #949494; }
       .description_s__wrap .description_title .column:nth-child(2n-1) {
         margin-right: 75px; }
