@@ -348,8 +348,8 @@ input[type="submit"] {
       content: "";
       position: absolute;
       left: 0;
-      top: 0;
-      height: 100%;
+      bottom: 0;
+      height: 2px;
       width: 100%;
       transform: scaleX(0);
       background: linear-gradient(90deg, #5F0587, #DD018C);
@@ -405,12 +405,12 @@ input[type="submit"] {
       display: flex;
       flex-direction: column;
       align-items: center; }
-      @media only screen and (max-width: 767px) {
-        .intro_s .intro_s__wrap .intro_title {
-          top: 900px; } }
       @media only screen and (min-width: 768px) and (max-width: 1199px) {
         .intro_s .intro_s__wrap .intro_title {
-          top: 600px; } }
+          top: 500px; } }
+      @media only screen and (max-width: 767px) {
+        .intro_s .intro_s__wrap .intro_title {
+          top: 400px; } }
       .intro_s .intro_s__wrap .intro_title h1 {
         font-size: 48px;
         font-weight: normal; }
@@ -428,6 +428,9 @@ input[type="submit"] {
       .intro_s .intro_s__wrap .mouse p {
         margin-top: 10px; }
       @media only screen and (min-width: 768px) and (max-width: 1199px) {
+        .intro_s .intro_s__wrap .mouse {
+          display: none; } }
+      @media only screen and (max-width: 767px) {
         .intro_s .intro_s__wrap .mouse {
           display: none; } }
 
@@ -448,28 +451,26 @@ input[type="submit"] {
     left: 0;
     top: 0;
     height: 100%;
-    width: 40%;
+    width: 10%;
     transform: translateX(-100%);
-    background: linear-gradient(to right, #330066, #cc0099);
+    background-color: white;
     opacity: .4;
     z-index: 1; }
   .btn:hover:after {
-    transform: translateX(250%);
-    transition: .5s; }
+    transform: translateX(200px);
+    transition: 1s; }
     @media only screen and (min-width: 768px) and (max-width: 1199px) {
       .btn:hover:after {
         transform: translateX(-100%); } }
     @media only screen and (max-width: 767px) {
       .btn:hover:after {
         transform: translateX(-100%); } }
-  .btn:hover {
-    background: linear-gradient(to right, #330046, #cc0099); }
-    @media only screen and (min-width: 768px) and (max-width: 1199px) {
-      .btn:hover {
-        background: linear-gradient(to right, #330066, #cc0099); } }
-    @media only screen and (max-width: 767px) {
-      .btn:hover {
-        background: linear-gradient(to right, #330066, #cc0099); } }
+  @media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .btn:hover {
+      background: linear-gradient(to right, #330066, #cc0099); } }
+  @media only screen and (max-width: 767px) {
+    .btn:hover {
+      background: linear-gradient(to right, #330066, #cc0099); } }
 
 .code_s {
   height: 520px;
