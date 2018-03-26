@@ -359,6 +359,12 @@ input[type="submit"] {
       color: #fff; }
       .header_s a:hover:after {
         transform: scaleX(1); }
+        @media only screen and (min-width: 768px) and (max-width: 1199px) {
+          .header_s a:hover:after {
+            transform: scaleX(0); } }
+      @media only screen and (min-width: 768px) and (max-width: 1199px) {
+        .header_s a:hover {
+          color: black; } }
   .header_s .company_name {
     font-size: 36px; }
     .header_s .company_name span {
@@ -399,6 +405,12 @@ input[type="submit"] {
       display: flex;
       flex-direction: column;
       align-items: center; }
+      @media only screen and (max-width: 767px) {
+        .intro_s .intro_s__wrap .intro_title {
+          top: 900px; } }
+      @media only screen and (min-width: 768px) and (max-width: 1199px) {
+        .intro_s .intro_s__wrap .intro_title {
+          top: 600px; } }
       .intro_s .intro_s__wrap .intro_title h1 {
         font-size: 48px;
         font-weight: normal; }
@@ -415,6 +427,9 @@ input[type="submit"] {
       color: #fff; }
       .intro_s .intro_s__wrap .mouse p {
         margin-top: 10px; }
+      @media only screen and (min-width: 768px) and (max-width: 1199px) {
+        .intro_s .intro_s__wrap .mouse {
+          display: none; } }
 
 .btn {
   height: 50px;
@@ -441,8 +456,20 @@ input[type="submit"] {
   .btn:hover:after {
     transform: translateX(250%);
     transition: .5s; }
+    @media only screen and (min-width: 768px) and (max-width: 1199px) {
+      .btn:hover:after {
+        transform: translateX(-100%); } }
+    @media only screen and (max-width: 767px) {
+      .btn:hover:after {
+        transform: translateX(-100%); } }
   .btn:hover {
     background: linear-gradient(to right, #330046, #cc0099); }
+    @media only screen and (min-width: 768px) and (max-width: 1199px) {
+      .btn:hover {
+        background: linear-gradient(to right, #330066, #cc0099); } }
+    @media only screen and (max-width: 767px) {
+      .btn:hover {
+        background: linear-gradient(to right, #330066, #cc0099); } }
 
 .code_s {
   height: 520px;
@@ -492,6 +519,12 @@ input[type="submit"] {
   flex-direction: column;
   align-items: center;
   height: 850px; }
+  @media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .description_s__wrap {
+      height: 1000px; } }
+  @media only screen and (max-width: 767px) {
+    .description_s__wrap {
+      height: 1000px; } }
   .description_s__wrap h2 {
     margin-top: 100px;
     font-family: 'ProximaNova-Bold';

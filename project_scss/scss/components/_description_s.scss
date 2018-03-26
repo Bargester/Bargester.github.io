@@ -3,6 +3,12 @@
   flex-direction: column;
   align-items: center;
   height: 850px;
+  @include res('tab'){
+    height: 1000px;
+  }
+  @include res('mob'){
+    height: 1000px;
+  }
   h2{
     margin-top: 100px;
     font-family: 'ProximaNova-Bold';

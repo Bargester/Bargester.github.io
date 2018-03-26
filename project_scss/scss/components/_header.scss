@@ -26,6 +26,12 @@
       color: #fff;
       &:after{
         transform: scaleX(1);
+        @include res('tab'){
+          transform: scaleX(0);
+        }
+      }
+      @include res('tab'){
+        color: black;
       }
     }
   }
