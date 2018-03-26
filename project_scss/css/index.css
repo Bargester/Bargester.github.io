@@ -340,9 +340,25 @@ input[type="submit"] {
   padding-top: 45px;
   z-index: 10; }
   .header_s a {
+    position: relative;
     text-decoration: none;
     color: black;
     font-family: 'ProximaNova-Light'; }
+    .header_s a:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      transform: scaleX(0);
+      background: linear-gradient(90deg, #5F0587, #DD018C);
+      transition: .5s;
+      z-index: -1; }
+    .header_s a:hover {
+      color: #fff; }
+      .header_s a:hover:after {
+        transform: scaleX(1); }
   .header_s .company_name {
     font-size: 36px; }
     .header_s .company_name span {
@@ -403,12 +419,30 @@ input[type="submit"] {
 .btn {
   height: 50px;
   width: 200px;
-  background: linear-gradient(90deg, #330066, #cc0099);
+  background: linear-gradient(to right, #330066, #cc0099);
   text-align: center;
   line-height: 50px;
   border-radius: 50px;
   text-decoration: none;
-  color: #fff; }
+  color: #fff;
+  position: relative;
+  overflow: hidden; }
+  .btn:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 40%;
+    transform: translateX(-100%);
+    background: linear-gradient(to right, #330066, #cc0099);
+    opacity: .4;
+    z-index: 1; }
+  .btn:hover:after {
+    transform: translateX(250%);
+    transition: .5s; }
+  .btn:hover {
+    color: #ddd; }
 
 .code_s {
   height: 520px;

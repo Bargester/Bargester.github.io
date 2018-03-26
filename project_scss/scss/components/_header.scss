@@ -6,9 +6,28 @@
   padding-top: 45px;
   z-index: 10;
   a{
+    position: relative;
     text-decoration: none;
     color: black;
     font-family: 'ProximaNova-Light';
+    &:after{
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      transform: scaleX(0);
+      background: linear-gradient(90deg ,#5F0587,#DD018C);
+      transition: .5s;
+      z-index: -1;
+    }
+    &:hover{
+      color: #fff;
+      &:after{
+        transform: scaleX(1);
+      }
+    }
   }
   .company_name{
     font-size: 36px;
