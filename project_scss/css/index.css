@@ -442,7 +442,7 @@ input[type="submit"] {
     transform: translateX(250%);
     transition: .5s; }
   .btn:hover {
-    color: #ddd; }
+    background: linear-gradient(to right, #330046, #cc0099); }
 
 .code_s {
   height: 520px;
@@ -611,6 +611,3 @@ footer p {
   font-size: 18px;
   text-align: center;
   color: #a7acbc; }
-
-body {
-  height: 500vh; }
