@@ -1,0 +1,18 @@
+<html>
+	<head>
+	<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<input id="in" type="file" onchange="">
+		<br>
+		<label for="shift">Shift: </label>
+		<input id="shift" type="number" max="255" min="0" onchange="numberTest(this.value)" value=1>
+		<label for="hex" class="hex">Hex: </label>
+		<input disabled id="hex" class="hex" value=1>
+		<br>
+		<input type="button" value="Encrypt" onclick="encrypt()">
+		<input type="button" value="Decrypt" onclick="decrypt()">
+		<br>
+		<script src="js/common.js"></script>
+	</body>
+</html>
