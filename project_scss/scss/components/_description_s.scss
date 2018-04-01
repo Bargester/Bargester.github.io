@@ -29,6 +29,12 @@
           h4{
             font-family: 'ProximaNova-Bold';
             font-size: 30px;
+            @include res('tab'){
+              width: 50%;
+            }
+            @include res('mob'){
+              height: 50%;
+            }
           }
           p{
             font-size: 16px;
@@ -47,7 +53,13 @@
       }
     }
   }
-  .btm{
+  .btn{
     margin-top: 15px;
+    @include res('tab'){
+      margin-bottom: 50px;
+    }
+    @include res('mob'){
+      margin-bottom: 50px;
+    }
   }
 }

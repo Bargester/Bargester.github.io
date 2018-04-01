@@ -545,6 +545,12 @@ input[type="submit"] {
           .description_s__wrap .description_title .column .row div h4 {
             font-family: 'ProximaNova-Bold';
             font-size: 30px; }
+            @media only screen and (min-width: 768px) and (max-width: 1199px) {
+              .description_s__wrap .description_title .column .row div h4 {
+                width: 50%; } }
+            @media only screen and (max-width: 767px) {
+              .description_s__wrap .description_title .column .row div h4 {
+                height: 50%; } }
           .description_s__wrap .description_title .column .row div p {
             font-size: 16px;
             line-height: 30px;
@@ -555,8 +561,14 @@ input[type="submit"] {
         margin-right: 75px; }
       .description_s__wrap .description_title .column:nth-child(2n) {
         margin-left: 75px; }
-  .description_s__wrap .btm {
+  .description_s__wrap .btn {
     margin-top: 15px; }
+    @media only screen and (min-width: 768px) and (max-width: 1199px) {
+      .description_s__wrap .btn {
+        margin-bottom: 50px; } }
+    @media only screen and (max-width: 767px) {
+      .description_s__wrap .btn {
+        margin-bottom: 50px; } }
 
 .portfolio_s__wrap {
   display: flex;
